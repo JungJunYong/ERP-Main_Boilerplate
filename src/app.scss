@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  font-size: 12px;
+  color: #222;
+  -webkit-text-size-adjust: none;
+  overflow: hidden;
+  -webkit-font-smoothing: unset !important;
+}
+* {
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  -webkit-tap-highlight-color: rgba(255,255,255,0)
+}

@@ -1,0 +1,6 @@
+@mixin media($queryString) {
+  @media screen and #{$queryString} {
+    @content;
+  }
+}
+

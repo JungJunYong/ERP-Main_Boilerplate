@@ -1,0 +1,59 @@
+@import 'src/variables';
+.header {
+  width: 100vw;
+  height: $header-height;
+  float: right;
+  overflow: hidden;
+  transition: width 0.5s ease-in-out;
+  display: inline-flex;
+  border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+.header.open {
+  width: $content-width;
+}
+
+.header .button-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header .header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+
+.header .button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  outline: 0px;
+  border: 0px;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  appearance: none;
+  text-decoration: none;
+  text-align: center;
+  flex: 0 0 auto;
+  padding: 16px;
+  overflow: visible;
+  background-image: url("./open.png");
+  background-size: cover;
+}
+
+.header.open .button {
+  background-image: url("./hide.png");
+}
+
+
+
+
+
