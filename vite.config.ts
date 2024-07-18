@@ -1,4 +1,4 @@
-import {defineConfig, ViteDevServer} from 'vite'
+import {defineConfig} from 'vite'
 import react from '@vitejs/plugin-react'
 import dotenv from 'dotenv'
 import Koa, {Middleware} from 'koa';
