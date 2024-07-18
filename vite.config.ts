@@ -22,14 +22,14 @@ app.use(
     })
 );
 
-function koaPlugin() {
-    return {
-        name: 'express-plugin',
-        configureServer(server: ViteDevServer) {
-            server.middlewares.use(app.callback())
-        }
-    }
-}
+// function koaPlugin() {
+//     return {
+//         name: 'express-plugin',
+//         configureServer(server: ViteDevServer) {
+//             server.middlewares.use(app.callback())
+//         }
+//     }
+// }
 
 export default defineConfig({
     plugins: [react()],

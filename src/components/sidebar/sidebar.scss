@@ -1,7 +1,7 @@
 @import 'src/variables';
 
 .sidebar {
-  width: 0vw;
+  width: 0;
   height: 100vh;
   float: left;
   transition: width 0.5s ease-in-out;
@@ -35,10 +35,10 @@
   .sidebar .menuItem {
     -webkit-tap-highlight-color: transparent;
     background-color: transparent;
-    outline: 0px;
-    border: 0px;
-    margin: 0px;
-    border-radius: 0px;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    border-radius: 0;
     cursor: pointer;
     user-select: none;
     vertical-align: middle;
@@ -50,7 +50,7 @@
     align-items: center;
     position: relative;
     text-decoration: none;
-    min-width: 0px;
+    min-width: 0;
     box-sizing: border-box;
     text-align: left;
     transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
